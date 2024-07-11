@@ -1,8 +1,3 @@
-# React + Vite
+# About this Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I made this game using HTML, CSS, JavaScript, and React.js to learn more about React state and how to program in it in general. The hardest part for me was learning the differences between React and vanilla javascript such as how variables and lists are no longer mutable. Another difficult part was the game logic, as the simplistic rules for the game were complex when put in code—especially for the chained jumps and checking for whether a move is possible.
