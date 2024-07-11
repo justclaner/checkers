@@ -1,0 +1,62 @@
+
+:root {
+  --boardLength: 600px; /*under 400px for mobile*/
+}
+
+body {
+    text-align: center;
+    padding-bottom: 300px;
+}
+.center {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width:610px;
+    height:610px;
+}
+.info {
+    display: block;
+    list-style-position: inside;
+    margin: 0 auto;
+    width: 800px;
+    text-align:left;
+}
+
+ol > li::marker {
+    font-weight: bold;
+  }
+
+.board {
+    position: absolute;
+    display: flex;
+    flex-wrap:wrap;
+    width: var(--boardLength);
+    height: var(--boardLength);
+  
+}
+.winner {
+    text-align: center;
+}
+.tile {
+    width:calc((var(--boardLength)/8) - 2px);
+    height:calc((var(--boardLength)/8) - 2px);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.piece {
+    width:calc((var(--boardLength)/8) - 30%);
+    height:calc((var(--boardLength)/8) - 30%);
+    border-radius:50%;
+    z-index: 1;
+}
+
+h2 {
+    position: relative;
+    bottom: 10%;
+    color: gold;
+}
